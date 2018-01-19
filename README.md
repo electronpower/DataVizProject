@@ -14,28 +14,28 @@ For example, in this density-equalizing cartogram, we use population as the main
 ![alt text](https://github.com/electronpower/DataVizProject/Density-Equalizing-Cartograms-425x213.png)
 As we can see, it’s easy to get information at only a glance. Which states stick out like a sore thumb in this population map? Straightaway you can see that a high proportion of population live in California and New York. While states like Montana and North Dakota are dwarfed in it and shrink to bite-size proportions.
 
-As objects shrink and grow in density-equalizing cartograms, cartographers have to consider resizing polygons appropriately while maintain their true geometry.</p>
+As objects shrink and grow in density-equalizing cartograms, cartographers have to consider resizing polygons appropriately while maintain their true geometry.
 
-###The Non-Contiguous Cartogram
+### The Non-Contiguous Cartogram
 
-<p>Features in non-contiguous cartograms don’t have to stay connected. Objects can freely move from adjacent polygons and be resized appropriately. Because of this free movement, shape remains in tact for non-contiguous cartograms such as in this population map of the United States below created in ArcGIS.
-<br>
+Features in non-contiguous cartograms don’t have to stay connected. Objects can freely move from adjacent polygons and be resized appropriately. Because of this free movement, shape remains in tact for non-contiguous cartograms such as in this population map of the United States below created in ArcGIS.
+
 
 ![alt text](https://github.com/electronpower/DataVizProject/Non-Contiguous-Cartogram-2.png)
+
 Again, the geometry and space of the map gets distorted to convey information of the population variable. For example, the state of California has grown significantly because of their large population.
 
 The main difference between density-equalizing cartograms is that it moves each feature’s centroid to avoid any overlapping.
 
 Although overlaps sometimes exist in non-contiguous cartograms, they can be more difficult to differentiate between resized polygons.
-</p>
 
-###The Dorling Cartogram
-<p>The Dorling Cartogram (named after professor Danny Dorling) uses shapes like circles and rectangles to depict area. These types of cartograms make it easy to recognize patterns. In the example below, we used GeoDa software to generate the Dorling cartogram.
-<br>
+
+### The Dorling Cartogram
+The Dorling Cartogram (named after professor Danny Dorling) uses shapes like circles and rectangles to depict area. These types of cartograms make it easy to recognize patterns. In the example below, we used GeoDa software to generate the Dorling cartogram.
+
 ![alt text](https://github.com/electronpower/DataVizProject/Dorling-Cartogram.png)
 As you can see, states are substituted with appropriately-sized circles to represent clusters of population in the United States. Without a doubt, it is highly effective at conveying information and patterns.
 
-</p>
 ## Sources
 <ul>
  <li>
