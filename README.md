@@ -1,6 +1,6 @@
 # Chart type Report : Cartogram
 
-## Definition
+## Definition and History
 A cartogram is a map in which some thematic mapping variable – such as travel time, population, or Gross National Product – is substituted for land area or distance. The geometry or space of the map is distorted in order to convey the information of this alternate variable. They are primarily used to display emphasis and for analysis as nomographs.
 Two common types of cartograms are area and distance cartograms. Cartograms have a fairly long history, with examples from the mid-1800s.
 
@@ -38,13 +38,13 @@ The Dorling Cartogram (named after professor Danny Dorling) uses shapes like cir
 ![](http://gisgeography.com/wp-content/uploads/2016/09/Dorling-Cartogram.png)
 As you can see, states are substituted with appropriately-sized circles to represent clusters of population in the United States. Without a doubt, it is highly effective at conveying information and patterns.
 
-## Sources
+## Sources and Links
 <ul>
  <li>
-<a href="https://fr.wikipedia.org/wiki/Diagramme_circulaire">Page Wikipedia</a>
+<a href="http://gisgeography.com/cartogram-maps/">GIS Geography</a>
  </li>
   <li>
-<a href="https://www.google.fr/search?q=pie+chart+celebres&client=firefox-b&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwifvJDv-t_YAhUHXBQKHfmbD-8Q_AUICigB&biw=1366&bih=656#imgrc=DfYR5rS2rH8F2M:">Requête Google Pie chart célèbres</a>
+<a href="https://wiki2.org/en/Cartogram#cite_note-2">Cartogram from wekipedia</a>
  </li>
 
 </ul>
