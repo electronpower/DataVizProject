@@ -11,7 +11,7 @@ Two common types of cartograms are area and distance cartograms. Cartograms have
 <p>Density-equalizing (contiguous) cartograms are your typical cartograms. In density-equalizing cartograms, map features bulge out a specific variable. Even though each feature becomes distorted, it remains connected during its creation.
 
 For example, in this density-equalizing cartogram, we use population as the main driver to exaggerate area. In QGIS, you can accomplish this with the QGIS Cartogram Plugin
-<br>
+
 ![alt text](https://github.com/electronpower/DataVizProject/Density-Equalizing-Cartograms-425x213.png)
 As you can see, it’s easy to get information at only a glance. Which states stick out like a sore thumb in this population map? Straightaway you can see that a high proportion of population live in California and New York. While states like Montana and North Dakota are dwarfed in it and shrink to bite-size proportions.
 
