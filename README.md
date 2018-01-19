@@ -4,10 +4,8 @@
 <p>A cartogram is a map in which some thematic mapping variable – such as travel time, population, or Gross National Product – is substituted for land area or distance. The geometry or space of the map is distorted in order to convey the information of this alternate variable. They are primarily used to display emphasis and for analysis as nomographs.
 Two common types of cartograms are area and distance cartograms. Cartograms have a fairly long history, with examples from the mid-1800s. </p>
  <br />
- 
 
- <br />
-  
+ <br /> 
 ## Applications and Types
 ###The Density-Equalizing Cartogram
 <p>Density-equalizing (contiguous) cartograms are your typical cartograms. In density-equalizing cartograms, map features bulge out a specific variable. Even though each feature becomes distorted, it remains connected during its creation.
@@ -20,8 +18,10 @@ As you can see, it’s easy to get information at only a glance. Which states st
 As objects shrink and grow in density-equalizing cartograms, cartographers have to consider resizing polygons appropriately while maintain their true geometry.</p>
 
 ###The Non-Contiguous Cartogram
+
 <p>Features in non-contiguous cartograms don’t have to stay connected. Objects can freely move from adjacent polygons and be resized appropriately. Because of this free movement, shape remains in tact for non-contiguous cartograms such as in this population map of the United States below created in ArcGIS.
 <br>
+
 ![alt text](https://github.com/electronpower/DataVizProject/Non-Contiguous-Cartogram-2.png)
 Again, the geometry and space of the map gets distorted to convey information of the population variable. For example, the state of California has grown significantly because of their large population.
 
