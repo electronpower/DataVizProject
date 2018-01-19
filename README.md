@@ -1,51 +1,42 @@
-# Chart type Report
+# Chart type Report : Cartogram
 
 ## Definition
 <p>A cartogram is a map in which some thematic mapping variable – such as travel time, population, or Gross National Product – is substituted for land area or distance. The geometry or space of the map is distorted in order to convey the information of this alternate variable. They are primarily used to display emphasis and for analysis as nomographs.
-Two common types of cartograms are area and distance cartograms. Cartograms have a fairly long history, with examples from the mid-1800s </p>
+Two common types of cartograms are area and distance cartograms. Cartograms have a fairly long history, with examples from the mid-1800s. </p>
  <br />
- <image src="https://wiki2.org/en/Cartogram#/media/File:Cartlinearlarge.png" width="400" align="center">
+ 
 
  <br />
   
-## Utilisations usuelles
-<p>D'usage courant en économie et le monde des affaires (pour leur présentation « élégante ») ou dans les médias (presse/magazines, télévision, Web, résultats de sondages…), le pie chart est très pratique lorsqu'il s'agit d'afficher des pourentages (résultats d'un sondage par exemple). Ils le sont moins dans le milieu scientifique car ils représentent moins bien les données et facilitent moins leurs comparaison que les autres types de diagrammes. En informatique, ils sont notamment utilisés pour représenter l'espace disque occupé/disponible.<br>
-Une des limites de ce diagramme est l'impossibilité de représenter des nombres négatifs. De plus il est souhaitable d'afficher un petit nombre de valeurs différentes avec préférentielment de grosses différences. Une des amélioration que l'on peut apporter à ce diagramme est d'afficher le pourcentage associé à chaque part.</p>
+## Applications and Types
+###The Density-Equalizing Cartogram
+<p>Density-equalizing (contiguous) cartograms are your typical cartograms. In density-equalizing cartograms, map features bulge out a specific variable. Even though each feature becomes distorted, it remains connected during its creation.
 
-## Exemples historiques
-<p>Le Pie chart est un diagramme relativement ancien. On retrouve dans la littérature des exemples datant de 1789. En effet il est facile à réaliser, il suffit de savoir mesurer des angles.</p><br />
+For example, in this density-equalizing cartogram, we use population as the main driver to exaggerate area. In QGIS, you can accomplish this with the QGIS Cartogram Plugin
+<br>
+![alt text](https://github.com/electronpower/DataVizProject/Density-Equalizing-Cartograms-425x213.png)
+As you can see, it’s easy to get information at only a glance. Which states stick out like a sore thumb in this population map? Straightaway you can see that a high proportion of population live in California and New York. While states like Montana and North Dakota are dwarfed in it and shrink to bite-size proportions.
 
- <table style="width:90%">
-  <tr>
-    <td> <image src="https://upload.wikimedia.org/wikipedia/commons/6/63/Playfair-piechart.jpg" width="300" align="center"></td>
-    <td> <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Minard-carte-viande-1858.png/800px-Minard-carte-viande-1858.png" width="300" align="center"></td>
-  </tr>
-  <tr>
-    <td>Pourcentage de territoire occupé par l'empire Ottoman<br> en Asie, Europe et Afrique (1789)</td>
-    <td>Carte figurative de viandes de boucherie en France</td>
-  </tr>
-</table> 
+As objects shrink and grow in density-equalizing cartograms, cartographers have to consider resizing polygons appropriately while maintain their true geometry.</p>
 
-## Quelques exemples de Pie chart intéressants
- <table style="width:100%">
-  <tr>
-    <td align="center"> <image src="http://img.over-blog-kiwi.com/1/23/41/63/20160113/ob_140559_france-et-religions.jpg" width="300" ></td>
-    <td> <image src="https://www.edf.fr/sites/default/files/contrib/groupe-edf/espaces-dedies/Espace%20p%C3%A9dagogie/home/tout-sur-lenergie/produire-de-lelectricite/le-nucleaire/le-nucleaire-chiffres/schema_france.png" width="300" align="center"></td>
-  </tr>
-  <tr>
-    <td style="text:center">Pourcentage des religions en France</td>
-    <td>Production de l'énergie en france</td>
-  </tr>
-   <tr>
-    <td> <image src="https://s-media-cache-ak0.pinimg.com/originals/7d/f3/68/7df368516bca0beef6240404e7d47a80.jpg" width="300" align="center"></td>
-    <td> <image src="https://i.pinimg.com/736x/27/73/25/2773251eb519b22837b8b9c5ee649f15--pie-charts-work-life-balance.jpg" width="300" align="center"></td>
-  </tr>
-  <tr>
-    <td>Premier résultat sur google image<br>Requête pie chart célèbre</td>
-    <td>Le pie chart peut être utilisé dans des domaines tres diverses</td>
-  </tr>
-</table> 
+###The Non-Contiguous Cartogram
+<p>Features in non-contiguous cartograms don’t have to stay connected. Objects can freely move from adjacent polygons and be resized appropriately. Because of this free movement, shape remains in tact for non-contiguous cartograms such as in this population map of the United States below created in ArcGIS.
+<br>
+![alt text](https://github.com/electronpower/DataVizProject/Non-Contiguous-Cartogram-2.png)
+Again, the geometry and space of the map gets distorted to convey information of the population variable. For example, the state of California has grown significantly because of their large population.
 
+The main difference between density-equalizing cartograms is that it moves each feature’s centroid to avoid any overlapping.
+
+Although overlaps sometimes exist in non-contiguous cartograms, they can be more difficult to differentiate between resized polygons.
+</p>
+
+###The Dorling Cartogram
+<p>The Dorling Cartogram (named after professor Danny Dorling) uses shapes like circles and rectangles to depict area. These types of cartograms make it easy to recognize patterns. In the example below, we used GeoDa software to generate the Dorling cartogram.
+<br>
+![alt text](https://github.com/electronpower/DataVizProject/Dorling-Cartogram.png)
+As you can see, states are substituted with appropriately-sized circles to represent clusters of population in the United States. Without a doubt, it is highly effective at conveying information and patterns.
+
+</p>
 ## Sources
 <ul>
  <li>
