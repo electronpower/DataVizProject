@@ -33,7 +33,7 @@ Although overlaps sometimes exist in non-contiguous cartograms, they can be more
 ### The Dorling Cartogram
 The Dorling Cartogram (named after professor Danny Dorling) uses shapes like circles and rectangles to depict area. These types of cartograms make it easy to recognize patterns. In the example below, we used GeoDa software to generate the Dorling cartogram.
 
-![alt text](https://github.com/electronpower/DataVizProject/Dorling-Cartogram.png)
+![](http://gisgeography.com/wp-content/uploads/2016/09/Dorling-Cartogram.png)
 As you can see, states are substituted with appropriately-sized circles to represent clusters of population in the United States. Without a doubt, it is highly effective at conveying information and patterns.
 
 ## Sources
