@@ -2,7 +2,7 @@
 
 ## Definition
 A cartogram is a map in which some thematic mapping variable – such as travel time, population, or Gross National Product – is substituted for land area or distance. The geometry or space of the map is distorted in order to convey the information of this alternate variable. They are primarily used to display emphasis and for analysis as nomographs.
-Two common types of cartograms are area and distance cartograms. Cartograms have a fairly long history, with examples from the mid-1800s. 
+Two common types of cartograms are area and distance cartograms. Cartograms have a fairly long history, with examples from the mid-1800s.
 
 ![](https://wiki2.org/en/Cartogram#/media/File:Cartlinearlarge.png)
  
